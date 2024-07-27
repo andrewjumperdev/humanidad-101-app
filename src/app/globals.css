@@ -31,3 +31,97 @@ body {
     text-wrap: balance;
   }
 }
+
+.parallax {
+  background-image: url('./bg-lading.png');
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  background-image: url('./parallax-2.png');
+  height: 60vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.parallax-3 {
+  background-image: url('./parallax-3.png');
+  height: 60vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title--style {
+  font-size: 5rem;
+  text-align: center;
+  color: #3D2D7D;
+}
+
+.quote--style {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #3D2D7D;
+}
+
+.quote--style-secondary {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fa-brands.fa-instagram {
+  color: #000000;
+}
+
+.fa-brands.fa-facebook-f {
+  color: #000000;
+}
+
+.fa-solid.fa-x {
+  color: #000000;
+}
+
+.icon__social > i {
+  background: #ffffff;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #3D2D7D;
+  width: 12rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.user--icon {
+  height: 90px;
+  width: 90px;
+  border: 4px solid black;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.user--icon > i {
+  font-size: 50px;
+}
